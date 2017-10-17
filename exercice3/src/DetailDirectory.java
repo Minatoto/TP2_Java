@@ -23,7 +23,7 @@ public class DetailDirectory {
                 directory = f;
             }
             else{
-                System.out.println("Addresse invalide...");
+                System.out.println("Addresse invalide... Veuillez réessayer ou en rentrez une autre");
             }
         }
         System.out.println("Rentrez une extension : (ex: \".py\")");
