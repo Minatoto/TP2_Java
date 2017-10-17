@@ -27,22 +27,30 @@ public class TextEditor {
             }
             System.out.println("Copie effectuée");
         }
+        
         catch(IOException e){
             e.printStackTrace();
         }
+        
         finally { // fermeture des IO
+            
             try {
                 if (input != null) {
                     input.close();
                 }
-            } catch (IOException e) {
+            } 
+            
+            catch (IOException e) {
                 e.printStackTrace();
             }
+            
             try {
                 if (output != null) {
                     output.close();
                 }
-            } catch (IOException e) {
+            } 
+            
+            catch (IOException e) {
                 e.printStackTrace();
             }
         }
