@@ -9,7 +9,7 @@ public class DirectoryEvaluator {
         String list = "Arborescence : \n---------------\n";
         String[] paths;
 
-        // On récupère l'arborescence du dossier dans un tableau
+        // On récupère l'arborescence du dossier dans un tableau pour faciliter la récupération
         paths = directory.list();
 
         // On lit le tableau et on passe à la méthode checkExtension chaque ligne
