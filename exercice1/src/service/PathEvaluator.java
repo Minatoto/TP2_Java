@@ -6,10 +6,10 @@ public class PathEvaluator {
 
     public void pathExist(String path){
 
-        // Création d'un objet file correspondant au chemin
+        // Création d'un objet (file) correspondant au chemin
         File f = new File(path);
 
-        // On teste s'il existe
+        // On teste si le chemin existe bien ou pas 
         if(f.exists()) {
             System.out.println("Le chemin existe");
         } else{
@@ -19,10 +19,10 @@ public class PathEvaluator {
 
     public void pathType(String path){
 
-        // Création d'un objet file correspondant au chemin
+        // Création d'un objet (file) correspondant au chemin
         File f = new File(path);
 
-        // On teste si c'est un dossier ou un fichier
+        // On teste si l'objet est un dossier ou un fichier
         if(f.isDirectory()) {
             System.out.println("C'est un dossier");
         } else if(f.isFile()) {
