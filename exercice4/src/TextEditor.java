@@ -8,7 +8,7 @@ public class TextEditor {
     public static void main(String args[]) {
 
         try{
-            // Création d'un objet file correspondant au fichier edité
+            // Création d'un objet (file) correspondant au fichier edité
             File f = new File("src/content/file.txt");
             // Création d'un buffer+writer permettant l'écriture
             BufferedWriter buff = new BufferedWriter(new FileWriter(f));
@@ -16,7 +16,7 @@ public class TextEditor {
             String prompt = "";
             System.out.println("Rentrez une ligne : \n-------------------");
 
-            // Tant que l'utilisateur n'écrit pas "quit" il peut continuer de rentrer des lignes
+            // Tant que l'utilisateur n'écrit pas "quit" (pour arrêter l'application) il peut continuer de rentrer des lignes
             while(!prompt.equals("quit")){
 
                 prompt = scanner.nextLine();
