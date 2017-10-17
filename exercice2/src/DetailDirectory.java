@@ -12,10 +12,10 @@ public class DetailDirectory {
         File directory = null;
 
         while (directory == null){
-            System.out.println("Rentrez l'adresse d'un dossier :");
+            System.out.println("Veuillez entrez l'adresse d'un dossier :");
             String path = scanner.nextLine().toLowerCase();
 
-            // Création d'un objet File correspondant au chemin que l'utilisateur a renseigné
+            // Création d'un objet (File) correspondant au chemin que l'utilisateur a rentré auparavant
             File f = new File(path);
 
             // Si le chemin pointe bien sur un dossier, on l'attribue à directory
