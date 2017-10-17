@@ -30,7 +30,7 @@ public class TextEditor {
         catch(IOException e){
             e.printStackTrace();
         }
-        finally { // On ferme nos IO
+        finally { // fermeture des IO
             try {
                 if (input != null) {
                     input.close();
