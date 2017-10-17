@@ -23,7 +23,7 @@ public class DetailDirectory {
                 directory = f;
             }
             else{
-                System.out.println("Addresse invalide...");
+                System.out.println("Addresse invalide... Veuillez en réessayer ou en rentrez un autre");
             }
         }
         System.out.println(DirectoryEvaluator.listFile(directory));
