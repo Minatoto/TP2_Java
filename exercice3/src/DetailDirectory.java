@@ -22,9 +22,9 @@ public class DetailDirectory {
             if(f.isDirectory()){
                 directory = f;
             }
-            else{
+              else{
                 System.out.println("Addresse invalide... Veuillez réessayer ou en rentrez une autre");
-            }
+              }
         }
         System.out.println("Rentrez une extension : (ex: \".py\")");
         String extension = scanner.nextLine();
