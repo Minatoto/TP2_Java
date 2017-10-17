@@ -14,7 +14,7 @@ public class copyPicture {
             //  par exemple : https://www.w3schools.com/css/img_fjords.jpg
             URL url = new URL(scanner.nextLine());
 
-            // On créer la connexion avec le serveur hébergeant l'image
+            // On créer la connexion avec le serveur qui héberge l'image
             URLConnection urlC = url.openConnection();
             urlC.connect();
 
